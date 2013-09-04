@@ -1,0 +1,406 @@
+/* YOU ARE IN: sample_project_folder/css/styles.css */
+
+/*Global Styles*/
+
+body{
+	background: black;
+	font-family: 'Marcellus SC', serif;
+	color: grey;
+
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.gradient{
+	background: rgb(238,238,238); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(238,238,238,1) 24%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(24%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(238,238,238,1) 24%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(238,238,238,1) 24%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(238,238,238,1) 24%,rgba(204,204,204,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(238,238,238,1) 24%,rgba(204,204,204,1) 100%); /* W3C */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+
+/*Nav Styles*/
+
+
+
+#nav-container{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-left: 10px;
+}
+
+
+#nav{
+	width: 700px;
+	background: black;
+	float: left;
+	position: relative;
+	padding: 10px;
+
+}
+
+#nav ul li{
+	display: inline-block;
+	padding: 10px;
+	background: grey;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	background: black;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	color: grey;
+}
+
+#nav ul li a:hover{
+	color: white;
+}
+
+#content-wrapper{
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+	width: 1000px;
+	margin-bottom: 20px;
+}
+
+.float-container{
+	display: block;
+	overflow: hidden;
+	width: 800px;
+	margin: 0 auto;
+	/*background: white;*/
+
+}
+
+
+
+
+
+
+/*Main Content*/
+
+#content-wrapper-about{
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+	width: 1000px;
+	background: white;
+	font-family: Arial;
+	height: 640px;
+	border-radius: 2px;
+	background: url("../images/space.jpg") no-repeat;
+	background-size: 100%;
+}
+
+#logo {
+	float: left;
+	position: relative;
+	width: 200px;
+	display: inline-block;
+	
+}
+
+
+
+
+
+/*About*/
+
+#about-float{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	padding: 40px;	
+}
+
+#location-about{
+	width: 1000px;
+	position: relative;
+	margin: 0 auto;
+	height: 266px;
+	
+}
+
+#photos{
+	width: 400px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	height: 266px;
+}
+
+#directions{
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin-right: 100px;
+	padding: 40px;
+	line-height: 20px;
+	border-radius: 3px;
+	color: black;
+}
+
+
+
+
+#day{
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	height: 266px;
+	z-index: 10;
+	
+}
+
+#night{
+	top: 0px;
+	position: absolute;
+	display: block;
+	height: 266px;
+}
+
+
+
+
+
+
+#contact{
+	
+	
+
+
+	width: 100%px;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	color: black;
+	margin-top: 40px;
+	line-height: 20px;
+
+
+}
+
+#contact-container{
+	display: block;
+	overflow: hidden;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.contact-bar{
+	
+width: 300px;
+padding: 20px;
+display: inline-block;
+float: left;
+margin: 20px;
+}
+
+#location{
+	display: inline-block;
+	float: left;
+
+}
+
+
+
+#social{
+	display: inline-block;
+	float: right;
+	font-size: 12px;
+}
+
+#social li{
+	display: inline;
+	margin-right: 10px;
+	color: black;
+}
+
+#social li a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+/*Footer*/
+
+
+.footer-wrapper{
+	color: grey;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+/* About styles */
+
+
+
+#about{
+	position: relative;
+	float: center;
+	width: 400px;
+	padding: 20px;
+	margin: 0 auto;
+	font-family: Arial;
+	
+	
+}
+
+#about h1{
+	font-size: 20px;
+	text-align: center
+}
+
+#about p{
+	line-height: 20px;
+	font-size: 14px;	
+}
+
+
+#staff{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 20px;
+}
+
+
+.staff{
+	width: 600px;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.staff-box{
+	
+	margin: 10px;
+	padding: 5px;
+	height: 165px;
+	width: 165px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	border-radius: 3px;
+	text-align: center;
+	color: black;
+
+}
+
+.staff-box h1{
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+.staff-box p{
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+/*Staff ids*/
+
+.julie{
+	background-color: LightSteelBlue;
+
+}
+
+.gracie{
+	background-color: DarkTurquoise;
+}
+
+.erik{
+	background-color: DimGrey;
+}
+
+.lauren{
+	background-color: MediumPurple;
+}
+
+.mary{
+	background-color: cornsilk;
+}
+
+.owen{
+	background-color: Salmon;
+}
+
+.description{
+	width: 565px;
+	font-size: 12px;
+	line-height: 14px;
+	font-family: Arial;
+	color: black;
+	display: none;
+	top: 10px;
+	left: 10px;
+	height: 175px;
+	z-index: 10;
+	position: absolute;
+	padding: 15px;
+	text-align: left;
+	list-style-type: none;
+}
+
+.kari
+
+
+.bio{
+
+	color: black;
+	width: 50px;
+	height: 15px;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 3px;
+
+}
+
+.bio p{
+	text-decoration: underline;
+	margin-top: 0px;
+}
+
+.email{
+	margin-top: 5px;
+}
+
+.hover{
+	color: white;
+}
+
+
+
+
+
+
